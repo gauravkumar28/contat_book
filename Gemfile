@@ -7,6 +7,7 @@ gem 'rails', '3.2.18'
 
 group :development, :test do
   gem 'sqlite3'
+  gem 'debugger'
 end
 
 group :production do
@@ -41,7 +42,6 @@ gem 'jquery-rails'
 # gem 'capistrano'
 
 # To use debugger
-gem 'debugger'
 gem 'populator'
 gem 'faker', '~> 1.2.0'
 gem 'will_paginate', '~> 3.0.6'
